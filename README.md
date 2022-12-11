@@ -38,5 +38,5 @@
    print r, c, t1, t2
    ```
 * Вывод:
-   Rect(10x20) Circle(52) Triangle(3, 4, 5) Wrong triangle
+ Rect(10x20) Circle(52) Triangle(3, 4, 5) Wrong triangle
    
