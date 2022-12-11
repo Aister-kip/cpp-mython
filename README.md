@@ -20,22 +20,22 @@
      def __str__():
        return 'Circle(' + str(self.r) + ')'
    class Triangle(Shape):
-  def __init__(a, b, c):
-    self.ok = a + b > c and a + c > b and b + c > a
-    if (self.ok):
-      self.a = a
-      self.b = b
-      self.c = c
-  def __str__():
-    if self.ok:
-      return 'Triangle(' + str(self.a) + ', ' + str(self.b) + ', ' + str(self.c) + ')'
-    else:
-      return 'Wrong triangle'
-r = Rect(10, 20)
-c = Circle(52)
-t1 = Triangle(3, 4, 5)
-t2 = Triangle(125, 1, 2)
-print r, c, t1, t2
+     def __init__(a, b, c):
+       self.ok = a + b > c and a + c > b and b + c > a
+       if (self.ok):
+         self.a = a
+         self.b = b
+         self.c = c
+     def __str__():
+       if self.ok:
+         return 'Triangle(' + str(self.a) + ', ' + str(self.b) + ', ' + str(self.c) + ')'
+       else:
+         return 'Wrong triangle'
+   r = Rect(10, 20)
+   c = Circle(52)
+   t1 = Triangle(3, 4, 5)
+   t2 = Triangle(125, 1, 2)
+   print r, c, t1, t2
    ```
 * Вывод:
    фывфыв
