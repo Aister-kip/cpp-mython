@@ -5,7 +5,7 @@
 ### Пример:
 * Ввод:
    ```python
-   class Shape:
+class Shape:
   def __str__():
     return "Shape"
 class Rect(Shape):
