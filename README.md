@@ -5,21 +5,21 @@
 ### Пример:
 * Ввод:
    ```python
-class Shape:
-  def __str__():
-    return "Shape"
-class Rect(Shape):
-  def __init__(w, h):
-    self.w = w
-    self.h = h
-  def __str__():
-    return "Rect(" + str(self.w) + 'x' + str(self.h) + ')'
-class Circle(Shape):
-  def __init__(r):
-    self.r = r
-  def __str__():
-    return 'Circle(' + str(self.r) + ')'
-class Triangle(Shape):
+   class Shape:
+     def __str__():
+       return "Shape"
+   class Rect(Shape):
+     def __init__(w, h):
+       self.w = w
+       self.h = h
+     def __str__():
+       return "Rect(" + str(self.w) + 'x' + str(self.h) + ')'
+   class Circle(Shape):
+     def __init__(r):
+       self.r = r
+     def __str__():
+       return 'Circle(' + str(self.r) + ')'
+   class Triangle(Shape):
   def __init__(a, b, c):
     self.ok = a + b > c and a + c > b and b + c > a
     if (self.ok):
